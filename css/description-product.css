@@ -1,6 +1,6 @@
 .description-product {
   font-family: "Roboto", sans-serif;
-  color: #fff;
+  color: #fff; 
 }
 
 .description-product >.title {
@@ -10,7 +10,11 @@
 
 .description-product > .item {
   font-size: 20px;
-  margin-bottom: 15px;
+  margin-bottom: 30px;
+}
+
+.description-product .item.-estrela {
+  margin-right: 10px;
 }
 
 .description-product > .item.-info {
@@ -19,7 +23,7 @@
 }
  
 .description-product > .item.-last {
-  margin-bottom: 35px;
+  margin-bottom: 70px;
 }
 
 .description-product .contrast {
@@ -30,7 +34,11 @@
 .description-product > .text {
   font-size: 18px;
   line-height: 30px;
-  margin-bottom: 15px;
+  margin-bottom: 30px;
+}
+
+.description-product .text.-more {
+  margin-bottom: 100px;
 }
 
 .description-product .action {
