@@ -13,8 +13,12 @@
   margin-bottom: 30px;
 }
 
-.description-product .item.-estrela {
-  margin-right: 10px;
+.description-product > .item.-star {
+  margin-bottom: 10px;
+}
+
+.description-product > .item.-star + .item{
+margin-left: 7px;
 }
 
 .description-product > .item.-info {
@@ -37,8 +41,8 @@
   margin-bottom: 30px;
 }
 
-.description-product .text.-more {
-  margin-bottom: 100px;
+.description-product > .text.-more {
+  margin-bottom: 0px;
 }
 
 .description-product .action {
