@@ -12,6 +12,13 @@
   text-align: center;
   text-decoration: none;
   border: none;
+  cursor: pointer;
+ 
+}
+
+.button-store:hover{
+background-color: #fff;
+color: #ee2244;
 }
 
 .button-store.-second {
@@ -20,6 +27,12 @@
   line-height: 56px;
   border: 2px solid #fff;
   margin-right: 15px;
+   transition: all 1s cubic-bezier(0.95, 0.05, 0.795, 0.035);
+}
+
+.button-store.-second:hover{
+  background-color: #fff;
+  color: #ee2244;
 }
 
 .button-store > button,
