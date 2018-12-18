@@ -7,3 +7,12 @@
   border-bottom-right-radius: 150px;
   margin-right: 150px;
 }
+
+@media (max-width: 1192px){
+  .photo-product {
+    display: block;
+    margin-right: 0px;
+    border-radius: 0px;
+    text-align: center;
+  }
+} 
