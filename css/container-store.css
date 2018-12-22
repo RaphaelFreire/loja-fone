@@ -10,7 +10,7 @@
   transform: translate(-50%)   translateY(-50%);
 }
 
-@media (max-width: 1289px), (max-height: 952px){ 
+@media (max-width: 1289px), (max-height: 1000px){ 
   .container-store{
     position: static;
     transform: none;
