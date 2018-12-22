@@ -19,6 +19,12 @@
   top: 8px;
   left: -47px;
   cursor: pointer;
+  width: 33px;
+  height: 29px;
+}
+
+.description-product > .item.-active{
+  background-color: #252c41;
 }
 
 .description-product .icon{
@@ -26,12 +32,36 @@
 }
 
 .description-product .icon:hover{
-  transform: scale(1.2);
+  transform: scale(1.15);
+}
+
+.description-product .icon.-active{
+    display:none;
+}
+
+.description-product > .item.-active .icon {
+  display: none;
+}
+
+.description-product > .item.-active .icon.-active{
+  display:block;
 }
 
 .description-product > .item.-star {
   margin-bottom: 10px;
   cursor: pointer;
+}
+
+.description-product .star{
+  display: inline-block;
+}
+
+.description-product .star.-active > .icon{
+  display: none;
+}
+
+.description-product .star.-active > .-active{
+  display: block;
 }
 
 .description-product > .item.-star + .item{
@@ -66,3 +96,35 @@ margin-left: 7px;
   color: inherit;
   text-decoration: none;
 }  
+
+
+@media (max-width: 1192px){
+  .description-product{
+    width: 50%;
+    min-width: 655px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
+  }
+
+  .description-product > .title{
+    font-size: 35px;
+    text-align: center;
+  }
+
+  .description-product > .item.-star {
+    float: left;
+    margin-right: 10px;
+  }
+
+  .description-product > .item.-number {
+    padding-top: 4px;
+  }
+}
+
+@media (max-width: 720px){
+  .description-product{
+    width: 90%;
+    min-width: auto;
+  }
+}

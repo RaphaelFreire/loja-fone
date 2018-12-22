@@ -3,6 +3,7 @@
 
 <head>
   <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width" />
   <title>Raphael Freire</title>
   <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet" />
   <link rel="stylesheet" href="css/reset.css" />
@@ -28,21 +29,50 @@
     </header>
 
     <figure class="photo-product">
-      <img src="img/fone.png" alt="Fone de ouvido">
+      <img class="photo" src="img/fone.png" alt="Fone de ouvido">
     </figure>
 
     <section class="wrap-product">
       <dl class="description-product">
         <dt class="title">Fone Top, Feliz e caro</dt>
-        <dd class="item -heart"><img class="icon" src="img/heart.png" alt="Like"></dd>
-        <dd class="item -star">
-          <img class="icon" src="img/star-active.png" alt="Estrela" />
-          <img class="icon" src="img/star.png" alt="Estrela" />
-          <img class="icon" src="img/star.png" alt="Estrela" />
-          <img class="icon" src="img/star.png" alt="Estrela" />
-          <img class="icon" src="img/star.png" alt="Estrela" />
+        <dd class="item -heart">
+          <img class="icon" src="img/heart.png" alt="Like">
+          <img class="icon -active" src="img/heart-active.png" alt="Like">
         </dd>
-        <dd class="item">4.0 (97)</dd>
+
+        <dd class="item -star">
+
+          <ol>
+            <li class="star -active">
+              <img class="icon" src="img/star.png" alt="Estrela" />
+              <img class="icon -active" src="img/star-active.png" alt="Estrela" />
+            </li>
+
+            <li class="star -active">
+              <img class="icon" src="img/star.png" alt="Estrela" />
+              <img class="icon -active" src="img/star-active.png" alt="Estrela" />
+            </li>
+
+            <li class="star -active">
+              <img class="icon" src="img/star.png" alt="Estrela" />
+              <img class="icon -active" src="img/star-active.png" alt="Estrela" />
+            </li>
+
+            <li class="star -active">
+              <img class="icon" src="img/star.png" alt="Estrela" />
+              <img class="icon -active" src="img/star-active.png" alt="Estrela" />
+            </li>
+
+            <li class="star">
+              <img class="icon" src="img/star.png" alt="Estrela" />
+              <img class="icon -active" src="img/star-active.png" alt="Estrela" />
+            </li>
+          </ol>
+
+
+
+        </dd>
+        <dd class="item -number">4.0 (97)</dd>
         <dd class="item -info">
           <strong class="contrast">Frete</strong> C$ 108
         </dd>
@@ -62,6 +92,9 @@
       </div>
     </section>
   </div>
+
+  <script src="js/description-product.js"></script>
+  <script src="js/home.js"></script>
 </body>
 
 </html>
