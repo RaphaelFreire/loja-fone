@@ -13,7 +13,7 @@
   margin-bottom: 28px;
 }
 
-.description-product > .item.-heart{
+.description-product > .item.-heart {
   position: absolute;
   transform: translateX(-100%);
   top: 8px;
@@ -56,11 +56,11 @@
   display: inline-block;
 }
 
-.description-product .star.-active > .icon{
+.description-product .star.-active .icon{
   display: none;
 }
 
-.description-product .star.-active > .-active{
+.description-product .star.-active .-active{
   display: block;
 }
 
