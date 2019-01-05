@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="css/base.css">
   <link rel="stylesheet" href="css/container-store.css" />
   <link rel="stylesheet" href="css/header-store.css " />
+  <link rel="stylesheet" href="css/input-search.css">
   <link rel="stylesheet" href="css/photo-product.css">
   <link rel="stylesheet" href="css/wrap-product.css">
   <link rel="stylesheet" href="css/description-product.css" />
@@ -21,7 +22,11 @@
     <header class="header-store">
       <h1 class="title">Logo</h1>
       <nav class="navigation">
-        <input type="search" placeholder="Busca" />
+        <form class="input-search -active">
+          <input class="content" type="search" placeholder="Busca" /><!--
+          --><input class="icon -open -active" type="image" src="img/search.svg" /><!--
+          --><input class="icon -close" type="image" src="img/close.svg" />
+        </form>
         <a class="action" href="http://www.raphaelmachadofreire.com.br">Produtos</a>
         <a class="action" href="http://www.raphaelmachadofreire.com.br">Serviços</a>
         <a class="action -last" href="http://www.raphaelmachadofreire.com.br">Carrinho (10)</a>
@@ -68,7 +73,7 @@
             </li>
           </ol>
         </dd>
-        
+
         <dd class="item -number">4.0 (97)</dd>
         <dd class="item -info">
           <strong class="contrast">Frete</strong> C$ 108
@@ -90,6 +95,7 @@
     </section>
   </div>
 
+  <script src="js/input-search.js"></script>
   <script src="js/description-product.js"></script>
   <script src="js/home.js"></script>
 </body>
