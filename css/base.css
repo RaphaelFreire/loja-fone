@@ -3,3 +3,9 @@ body{
  background-image: linear-gradient(to bottom, #ff2e63, #252a34);
  background-attachment: fixed;
 }
+
+@media (max-width: 355px){
+  body{
+    overflow-x: hidden;
+  }
+}
