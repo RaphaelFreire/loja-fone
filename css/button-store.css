@@ -44,6 +44,12 @@ color: #ee2244;
   text-decoration: inherit;
 }
 
+@media (max-width: 1192px){
+  .button-store.-second{
+    margin-right: 38px;
+  }
+}
+
 @media (max-width: 500px){
   .button-store.-second{
     margin-right: 20px; 
@@ -62,3 +68,4 @@ color: #ee2244;
     margin-bottom: 20px;
   }
 }
+

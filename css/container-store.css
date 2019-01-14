@@ -8,6 +8,7 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%)   translateY(-50%);
+  box-shadow: 0 0 39px 0 rgba(50,50,50, 0.36);
 }
 
 @media (max-width: 1289px), (max-height: 900px){ 
