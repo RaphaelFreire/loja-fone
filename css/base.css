@@ -4,8 +4,12 @@ body{
  background-attachment: fixed;
 }
 
-@media (max-width: 355px){
-  body{
+@media (max-width: 335px) {
+  body {
+    position: relative;
+    overflow-x: hidden;
+  }
+  html {
     overflow-x: hidden;
   }
 }
